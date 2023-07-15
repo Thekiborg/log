@@ -1,0 +1,370 @@
+Command line arguments: -savedatafolder=C:\Users\a\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+Verse.Root:CheckGlobalInit ()
+Verse.Root:Start ()
+Verse.Root_Entry:Start ()
+
+RimWorld 1.4.3704 rev896
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RimWorld.VersionControl:LogVersionNumber ()
+Verse.Root:CheckGlobalInit ()
+Verse.Root:Start ()
+Verse.Root_Entry:Start ()
+
+Save data folder overridden to C:\Users\a\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+Verse.GenFilePaths:get_SaveDataFolderPath ()
+Verse.GenFilePaths:FolderUnderSaveData (string)
+Verse.GenFilePaths:get_ConfigFolderPath ()
+Verse.GenFilePaths:get_PrefsFilePath ()
+Verse.Prefs:Init ()
+Verse.Root:CheckGlobalInit ()
+Verse.Root:Start ()
+Verse.Root_Entry:Start ()
+
+MVCF successfully applied 0 patches
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+MVCF.Patch:PrintSummary ()
+MVCF.MVCF/<>c:<CollectFeatureData>b__15_0 ()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished ()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+Verse.Root:Update ()
+Verse.Root_Entry:Update ()
+
+Initializing new game with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - VanillaExpanded.VPsycastsE
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+(wrapper dynamic-method) Verse.Game:Verse.Game.InitNewGame_Patch0 (Verse.Game)
+Verse.Root_Play/<>c:<Start>b__1_2 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__27_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Scatterer RimWorld.GenStep_ScatterLayout could not find cell to generate at.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+Verse.GenStep_Scatterer:TryFindScatterCell (Verse.Map,Verse.IntVec3&)
+Verse.GenStep_Scatterer:Generate (Verse.Map,Verse.GenStepParams)
+(wrapper dynamic-method) Verse.MapGenerator:Verse.MapGenerator.GenerateContentsIntoMap_Patch1 (System.Collections.Generic.IEnumerable`1<Verse.GenStepWithParams>,Verse.Map,int)
+(wrapper dynamic-method) Verse.MapGenerator:Verse.MapGenerator.GenerateMap_Patch1 (Verse.IntVec3,RimWorld.Planet.MapParent,Verse.MapGeneratorDef,System.Collections.Generic.IEnumerable`1<Verse.GenStepWithParams>,System.Action`1<Verse.Map>)
+(wrapper dynamic-method) Verse.Game:Verse.Game.InitNewGame_Patch0 (Verse.Game)
+Verse.Root_Play/<>c:<Start>b__1_2 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__27_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Initializing new game with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - VanillaExpanded.VPsycastsE
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+(wrapper dynamic-method) Verse.Game:Verse.Game.InitNewGame_Patch0 (Verse.Game)
+Verse.Root_Play/<>c:<Start>b__1_2 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__27_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Error while killing Mech_Tesseron8861 during phase 5: System.NullReferenceException: Object reference not set to an instance of an object
+  at VanillaPsycastsExpanded.VerbProperties_AdjustedMeleeDamageAmount_Patch.Postfix (System.Single& __result, Verse.Verb ownerVerb, Verse.Pawn attacker) [0x00011] in <e0c4118c93ec462a8e260d87aed0a281>:0 
+  at (wrapper dynamic-method) Verse.VerbProperties.Verse.VerbProperties.AdjustedMeleeDamageAmount_Patch2(Verse.VerbProperties,Verse.Verb,Verse.Pawn)
+  at Verse.VerbUtility.DPS (Verse.Verb v, Verse.Pawn p) [0x00000] in <95de19971c5d40878d8742747904cdcd>:0 
+  at Verse.VerbUtility.InitialVerbWeight (Verse.Verb v, Verse.Pawn p) [0x00000] in <95de19971c5d40878d8742747904cdcd>:0 
+  at RimWorld.Pawn_MeleeVerbs.GetUpdatedAvailableVerbsList (System.Boolean terrainTools) [0x0028e] in <95de19971c5d40878d8742747904cdcd>:0 
+  at RimWorld.Pawn_MeleeVerbs.ChooseMeleeVerb (Verse.Thing target) [0x00018] in <95de19971c5d40878d8742747904cdcd>:0 
+  at RimWorld.Pawn_MeleeVerbs.TryGetMeleeVerb (Verse.Thing target) [0x00047] in <95de19971c5d40878d8742747904cdcd>:0 
+  at RimWorld.Pawn_MeleeVerbs.TryMeleeAttack (Verse.Thing target, Verse.Verb verbToUse, System.Boolean surpriseAttack) [0x00079] in <95de19971c5d40878d8742747904cdcd>:0 
+  at Verse.AI.JobDriver_Wait.CheckForAutoAttack () [0x00130] in <95de19971c5d40878d8742747904cdcd>:0 
+  at Verse.AI.JobDriver_Wait.Notify_StanceChanged () [0x00017] in <95de19971c5d40878d8742747904cdcd>:0 
+  at Verse.Pawn_StanceTracker.SetStance (Verse.Stance newStance) [0x00078] in <95de19971c5d40878d8742747904cdcd>:0 
+  at Verse.Pawn_StanceTracker.CancelBusyStanceSoft () [0x00013] in <95de19971c5d40878d8742747904cdcd>:0 
+  at Verse.Verb.Notify_EquipmentLost () [0x00034] in <95de19971c5d40878d8742747904cdcd>:0 
+  at Verse.CompEquippable.Notify_Unequipped (Verse.Pawn p) [0x00012] in <95de19971c5d40878d8742747904cdcd>:0 
+  at Verse.ThingWithComps.Notify_Unequipped (Verse.Pawn pawn) [0x0001f] in <95de19971c5d40878d8742747904cdcd>:0 
+  at Verse.Pawn_EquipmentTracker.Notify_EquipmentRemoved (Verse.ThingWithComps eq) [0x00000] in <95de19971c5d40878d8742747904cdcd>:0 
+  at Verse.ThingOwner.NotifyRemoved (Verse.Thing item) [0x00040] in <95de19971c5d40878d8742747904cdcd>:0 
+  at Verse.ThingOwner`1[T].Remove (Verse.Thing item) [0x00039] in <95de19971c5d40878d8742747904cdcd>:0 
+  at Verse.ThingOwner.Notify_ContainedItemDestroyed (Verse.Thing t) [0x0000d] in <95de19971c5d40878d8742747904cdcd>:0 
+  at Verse.Thing.Destroy (Verse.DestroyMode mode) [0x000f5] in <95de19971c5d40878d8742747904cdcd>:0 
+  at Verse.ThingWithComps.Destroy (Verse.DestroyMode mode) [0x00007] in <95de19971c5d40878d8742747904cdcd>:0 
+  at Verse.ThingOwner.ClearAndDestroyContents (Verse.DestroyMode mode) [0x00015] in <95de19971c5d40878d8742747904cdcd>:0 
+  at Verse.Pawn_EquipmentTracker.DestroyAllEquipment (Verse.DestroyMode mode) [0x00000] in <95de19971c5d40878d8742747904cdcd>:0 
+  at Verse.Pawn.DropAndForbidEverything (System.Boolean keepInventoryAndEquipmentIfInBed, System.Boolean rememberPrimary) [0x0000d] in <95de19971c5d40878d8742747904cdcd>:0 
+  at (wrapper dynamic-method) Verse.Pawn.Verse.Pawn.Kill_Patch7(Verse.Pawn,System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+(wrapper dynamic-method) Verse.Pawn:Verse.Pawn.Kill_Patch7 (Verse.Pawn,System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
+(wrapper dynamic-method) Verse.Pawn_HealthTracker:Verse.Pawn_HealthTracker.CheckForStateChange_Patch1 (Verse.Pawn_HealthTracker,System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
+(wrapper dynamic-method) Verse.Pawn_HealthTracker:Verse.Pawn_HealthTracker.AddHediff_Patch1 (Verse.Pawn_HealthTracker,Verse.Hediff,Verse.BodyPartRecord,System.Nullable`1<Verse.DamageInfo>,Verse.DamageWorker/DamageResult)
+Verse.DamageWorker_AddInjury:FinalizeAndAddInjury (Verse.Pawn,Verse.Hediff_Injury,Verse.DamageInfo,Verse.DamageWorker/DamageResult)
+Verse.DamageWorker_AddInjury:FinalizeAndAddInjury (Verse.Pawn,single,Verse.DamageInfo,Verse.DamageWorker/DamageResult)
+Verse.DamageWorker_Blunt:ApplySpecialEffectsToPart (Verse.Pawn,single,Verse.DamageInfo,Verse.DamageWorker/DamageResult)
+(wrapper dynamic-method) Verse.DamageWorker_AddInjury:Verse.DamageWorker_AddInjury.ApplyDamageToPart_Patch1 (Verse.DamageWorker_AddInjury,Verse.DamageInfo,Verse.Pawn,Verse.DamageWorker/DamageResult)
+(wrapper dynamic-method) Verse.DamageWorker_AddInjury:Verse.DamageWorker_AddInjury.ApplyToPawn_Patch0 (Verse.DamageWorker_AddInjury,Verse.DamageInfo,Verse.Pawn)
+Verse.DamageWorker_AddInjury:Apply (Verse.DamageInfo,Verse.Thing)
+(wrapper dynamic-method) Verse.Thing:Verse.Thing.TakeDamage_Patch2 (Verse.Thing,Verse.DamageInfo)
+RimWorld.Verb_MeleeAttackDamage:ApplyMeleeDamageToTarget (Verse.LocalTargetInfo)
+RimWorld.Verb_MeleeAttack:TryCastShot ()
+Verse.Verb:TryCastNextBurstShot ()
+Verse.Verb:WarmupComplete ()
+(wrapper dynamic-method) Verse.Verb:Verse.Verb.TryStartCastOn_Patch2 (Verse.Verb,Verse.LocalTargetInfo,Verse.LocalTargetInfo,bool,bool,bool,bool)
+Verse.Verb:TryStartCastOn (Verse.LocalTargetInfo,bool,bool,bool,bool)
+RimWorld.Pawn_MeleeVerbs:TryMeleeAttack (Verse.Thing,Verse.Verb,bool)
+VanillaPsycastsExpanded.Ability_Killskip:AttackTarget (Verse.LocalTargetInfo)
+VanillaPsycastsExpanded.Ability_Killskip:Cast (RimWorld.Planet.GlobalTargetInfo[])
+VFECore.Abilities.Ability:Cast (Verse.LocalTargetInfo)
+VFECore.Abilities.JobDriver_CastAbilityOnce/<>c__DisplayClass5_0:<MakeNewToils>b__3 ()
+Verse.AI.JobDriver:TryActuallyStartNextToil ()
+Verse.AI.JobDriver:ReadyForNextToil ()
+Verse.AI.JobDriver:DriverTick ()
+Verse.AI.Pawn_JobTracker:JobTrackerTick ()
+Verse.Pawn:Tick ()
+Verse.TickList:Tick ()
+(wrapper dynamic-method) Verse.TickManager:Verse.TickManager.DoSingleTick_Patch2 (Verse.TickManager)
+Verse.TickManager:TickManagerUpdate ()
+Verse.Game:UpdatePlay ()
+Verse.Root_Play:Update ()
+
+Mech_Tesseron8861 set dead while already dead.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.Pawn_HealthTracker:SetDead ()
+(wrapper dynamic-method) Verse.Pawn:Verse.Pawn.Kill_Patch7 (Verse.Pawn,System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
+(wrapper dynamic-method) Verse.Pawn_HealthTracker:Verse.Pawn_HealthTracker.PostApplyDamage_Patch1 (Verse.Pawn_HealthTracker,Verse.DamageInfo,single)
+Verse.Pawn:PostApplyDamage (Verse.DamageInfo,single)
+(wrapper dynamic-method) Verse.Thing:Verse.Thing.TakeDamage_Patch2 (Verse.Thing,Verse.DamageInfo)
+RimWorld.Verb_MeleeAttackDamage:ApplyMeleeDamageToTarget (Verse.LocalTargetInfo)
+RimWorld.Verb_MeleeAttack:TryCastShot ()
+Verse.Verb:TryCastNextBurstShot ()
+Verse.Verb:WarmupComplete ()
+(wrapper dynamic-method) Verse.Verb:Verse.Verb.TryStartCastOn_Patch2 (Verse.Verb,Verse.LocalTargetInfo,Verse.LocalTargetInfo,bool,bool,bool,bool)
+Verse.Verb:TryStartCastOn (Verse.LocalTargetInfo,bool,bool,bool,bool)
+RimWorld.Pawn_MeleeVerbs:TryMeleeAttack (Verse.Thing,Verse.Verb,bool)
+VanillaPsycastsExpanded.Ability_Killskip:AttackTarget (Verse.LocalTargetInfo)
+VanillaPsycastsExpanded.Ability_Killskip:Cast (RimWorld.Planet.GlobalTargetInfo[])
+VFECore.Abilities.Ability:Cast (Verse.LocalTargetInfo)
+VFECore.Abilities.JobDriver_CastAbilityOnce/<>c__DisplayClass5_0:<MakeNewToils>b__3 ()
+Verse.AI.JobDriver:TryActuallyStartNextToil ()
+Verse.AI.JobDriver:ReadyForNextToil ()
+Verse.AI.JobDriver:DriverTick ()
+Verse.AI.Pawn_JobTracker:JobTrackerTick ()
+Verse.Pawn:Tick ()
+Verse.TickList:Tick ()
+(wrapper dynamic-method) Verse.TickManager:Verse.TickManager.DoSingleTick_Patch2 (Verse.TickManager)
+Verse.TickManager:TickManagerUpdate ()
+Verse.Game:UpdatePlay ()
+Verse.Root_Play:Update ()
+
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+  at VanillaPsycastsExpanded.VerbProperties_AdjustedMeleeDamageAmount_Patch.Postfix (System.Single& __result, Verse.Verb ownerVerb, Verse.Pawn attacker) [0x00011] in <e0c4118c93ec462a8e260d87aed0a281>:0 
+  at (wrapper dynamic-method) Verse.VerbProperties.Verse.VerbProperties.AdjustedMeleeDamageAmount_Patch2(Verse.VerbProperties,Verse.Verb,Verse.Pawn)
+  at Verse.VerbUtility.DPS (Verse.Verb v, Verse.Pawn p) [0x00000] in <95de19971c5d40878d8742747904cdcd>:0 
+  at Verse.VerbUtility.InitialVerbWeight (Verse.Verb v, Verse.Pawn p) [0x00000] in <95de19971c5d40878d8742747904cdcd>:0 
+  at RimWorld.Pawn_MeleeVerbs.GetUpdatedAvailableVerbsList (System.Boolean terrainTools) [0x0028e] in <95de19971c5d40878d8742747904cdcd>:0 
+  at RimWorld.Pawn_MeleeVerbs.ChooseMeleeVerb (Verse.Thing target) [0x00018] in <95de19971c5d40878d8742747904cdcd>:0 
+  at RimWorld.Pawn_MeleeVerbs.TryGetMeleeVerb (Verse.Thing target) [0x00047] in <95de19971c5d40878d8742747904cdcd>:0 
+  at (wrapper dynamic-method) Verse.Pawn.Verse.Pawn.TryGetAttackVerb_Patch1(Verse.Pawn,Verse.Thing,bool,bool)
+  at RimWorld.JobGiver_AIFightEnemy.FindAttackTargetIfPossible (Verse.Pawn pawn) [0x00008] in <95de19971c5d40878d8742747904cdcd>:0 
+  at (wrapper dynamic-method) RimWorld.JobGiver_AIFightEnemy.RimWorld.JobGiver_AIFightEnemy.UpdateEnemyTarget_Patch1(RimWorld.JobGiver_AIFightEnemy,Verse.Pawn)
+  at RimWorld.JobGiver_AIFightEnemy.TryGiveJob (Verse.Pawn pawn) [0x00000] in <95de19971c5d40878d8742747904cdcd>:0 
+  at Verse.AI.ThinkNode_JobGiver.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <95de19971c5d40878d8742747904cdcd>:0 
+  at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <95de19971c5d40878d8742747904cdcd>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+RimWorld.ThinkNode_Duty:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Tagger:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Subtree:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.Pawn_JobTracker:DetermineNextJob (Verse.ThinkTreeDef&)
+Verse.AI.Pawn_JobTracker:CheckForJobOverride ()
+Verse.AI.Pawn_JobTracker:Notify_DamageTaken (Verse.DamageInfo)
+Verse.Pawn_HealthTracker:PreApplyDamage (Verse.DamageInfo,bool&)
+Verse.Pawn:PreApplyDamage (Verse.DamageInfo&,bool&)
+(wrapper dynamic-method) Verse.Thing:Verse.Thing.TakeDamage_Patch2 (Verse.Thing,Verse.DamageInfo)
+RimWorld.Verb_MeleeAttackDamage:ApplyMeleeDamageToTarget (Verse.LocalTargetInfo)
+RimWorld.Verb_MeleeAttack:TryCastShot ()
+Verse.Verb:TryCastNextBurstShot ()
+Verse.Verb:WarmupComplete ()
+(wrapper dynamic-method) Verse.Verb:Verse.Verb.TryStartCastOn_Patch2 (Verse.Verb,Verse.LocalTargetInfo,Verse.LocalTargetInfo,bool,bool,bool,bool)
+Verse.Verb:TryStartCastOn (Verse.LocalTargetInfo,bool,bool,bool,bool)
+RimWorld.Pawn_MeleeVerbs:TryMeleeAttack (Verse.Thing,Verse.Verb,bool)
+VanillaPsycastsExpanded.Ability_Killskip:AttackTarget (Verse.LocalTargetInfo)
+VanillaPsycastsExpanded.Ability_Killskip:Cast (RimWorld.Planet.GlobalTargetInfo[])
+VFECore.Abilities.Ability:Cast (Verse.LocalTargetInfo)
+VFECore.Abilities.JobDriver_CastAbilityOnce/<>c__DisplayClass5_0:<MakeNewToils>b__3 ()
+Verse.AI.JobDriver:TryActuallyStartNextToil ()
+Verse.AI.JobDriver:ReadyForNextToil ()
+Verse.AI.JobDriver:DriverTick ()
+Verse.AI.Pawn_JobTracker:JobTrackerTick ()
+Verse.Pawn:Tick ()
+Verse.TickList:Tick ()
+(wrapper dynamic-method) Verse.TickManager:Verse.TickManager.DoSingleTick_Patch2 (Verse.TickManager)
+Verse.TickManager:TickManagerUpdate ()
+Verse.Game:UpdatePlay ()
+Verse.Root_Play:Update ()
+
+JobDriver threw exception in toil MakeNewToils's initAction for pawn Mech_Tesseron8859 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_1968))
+System.NullReferenceException: Object reference not set to an instance of an object
+  at VanillaPsycastsExpanded.VerbProperties_AdjustedMeleeDamageAmount_Patch.Postfix (System.Single& __result, Verse.Verb ownerVerb, Verse.Pawn attacker) [0x00011] in <e0c4118c93ec462a8e260d87aed0a281>:0 
+  at (wrapper dynamic-method) Verse.VerbProperties.Verse.VerbProperties.AdjustedMeleeDamageAmount_Patch2(Verse.VerbProperties,Verse.Verb,Verse.Pawn)
+  at Verse.VerbUtility.DPS (Verse.Verb v, Verse.Pawn p) [0x00000] in <95de19971c5d40878d8742747904cdcd>:0 
+  at Verse.VerbUtility.InitialVerbWeight (Verse.Verb v, Verse.Pawn p) [0x00000] in <95de19971c5d40878d8742747904cdcd>:0 
+  at RimWorld.Pawn_MeleeVerbs.GetUpdatedAvailableVerbsList (System.Boolean terrainTools) [0x0028e] in <95de19971c5d40878d8742747904cdcd>:0 
+  at RimWorld.Pawn_MeleeVerbs.ChooseMeleeVerb (Verse.Thing target) [0x00018] in <95de19971c5d40878d8742747904cdcd>:0 
+  at RimWorld.Pawn_MeleeVerbs.TryGetMeleeVerb (Verse.Thing target) [0x00047] in <95de19971c5d40878d8742747904cdcd>:0 
+  at RimWorld.Pawn_MeleeVerbs.TryMeleeAttack (Verse.Thing target, Verse.Verb verbToUse, System.Boolean surpriseAttack) [0x00079] in <95de19971c5d40878d8742747904cdcd>:0 
+  at Verse.AI.JobDriver_Wait.CheckForAutoAttack () [0x00130] in <95de19971c5d40878d8742747904cdcd>:0 
+  at Verse.AI.JobDriver_Wait.<MakeNewToils>b__3_0 () [0x0003d] in <95de19971c5d40878d8742747904cdcd>:0 
+  at Verse.AI.JobDriver.TryActuallyStartNextToil () [0x001b0] in <95de19971c5d40878d8742747904cdcd>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.AI.JobUtility:TryStartErrorRecoverJob (Verse.Pawn,string,System.Exception,Verse.AI.JobDriver)
+Verse.AI.JobDriver:TryActuallyStartNextToil ()
+Verse.AI.JobDriver:ReadyForNextToil ()
+(wrapper dynamic-method) Verse.AI.Pawn_JobTracker:Verse.AI.Pawn_JobTracker.StartJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.AI.Job,Verse.AI.JobCondition,Verse.AI.ThinkNode,bool,bool,Verse.ThinkTreeDef,System.Nullable`1<Verse.AI.JobTag>,bool,bool,System.Nullable`1<bool>,bool,bool)
+Verse.AI.Pawn_JobTracker:CheckForJobOverride ()
+Verse.AI.Pawn_JobTracker:Notify_DamageTaken (Verse.DamageInfo)
+Verse.Pawn_HealthTracker:PreApplyDamage (Verse.DamageInfo,bool&)
+Verse.Pawn:PreApplyDamage (Verse.DamageInfo&,bool&)
+(wrapper dynamic-method) Verse.Thing:Verse.Thing.TakeDamage_Patch2 (Verse.Thing,Verse.DamageInfo)
+RimWorld.Verb_MeleeAttackDamage:ApplyMeleeDamageToTarget (Verse.LocalTargetInfo)
+RimWorld.Verb_MeleeAttack:TryCastShot ()
+Verse.Verb:TryCastNextBurstShot ()
+Verse.Verb:WarmupComplete ()
+(wrapper dynamic-method) Verse.Verb:Verse.Verb.TryStartCastOn_Patch2 (Verse.Verb,Verse.LocalTargetInfo,Verse.LocalTargetInfo,bool,bool,bool,bool)
+Verse.Verb:TryStartCastOn (Verse.LocalTargetInfo,bool,bool,bool,bool)
+RimWorld.Pawn_MeleeVerbs:TryMeleeAttack (Verse.Thing,Verse.Verb,bool)
+VanillaPsycastsExpanded.Ability_Killskip:AttackTarget (Verse.LocalTargetInfo)
+VanillaPsycastsExpanded.Ability_Killskip:Cast (RimWorld.Planet.GlobalTargetInfo[])
+VFECore.Abilities.Ability:Cast (Verse.LocalTargetInfo)
+VFECore.Abilities.JobDriver_CastAbilityOnce/<>c__DisplayClass5_0:<MakeNewToils>b__3 ()
+Verse.AI.JobDriver:TryActuallyStartNextToil ()
+Verse.AI.JobDriver:ReadyForNextToil ()
+Verse.AI.JobDriver:DriverTick ()
+Verse.AI.Pawn_JobTracker:JobTrackerTick ()
+Verse.Pawn:Tick ()
+Verse.TickList:Tick ()
+(wrapper dynamic-method) Verse.TickManager:Verse.TickManager.DoSingleTick_Patch2 (Verse.TickManager)
+Verse.TickManager:TickManagerUpdate ()
+Verse.Game:UpdatePlay ()
+Verse.Root_Play:Update ()
+
+JobDriver threw exception in toil MakeNewToils's initAction for pawn Mech_Tesseron8859 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_1969))
+System.NullReferenceException: Object reference not set to an instance of an object
+  at VanillaPsycastsExpanded.VerbProperties_AdjustedMeleeDamageAmount_Patch.Postfix (System.Single& __result, Verse.Verb ownerVerb, Verse.Pawn attacker) [0x00011] in <e0c4118c93ec462a8e260d87aed0a281>:0 
+  at (wrapper dynamic-method) Verse.VerbProperties.Verse.VerbProperties.AdjustedMeleeDamageAmount_Patch2(Verse.VerbProperties,Verse.Verb,Verse.Pawn)
+  at Verse.VerbUtility.DPS (Verse.Verb v, Verse.Pawn p) [0x00000] in <95de19971c5d40878d8742747904cdcd>:0 
+  at Verse.VerbUtility.InitialVerbWeight (Verse.Verb v, Verse.Pawn p) [0x00000] in <95de19971c5d40878d8742747904cdcd>:0 
+  at RimWorld.Pawn_MeleeVerbs.GetUpdatedAvailableVerbsList (System.Boolean terrainTools) [0x0028e] in <95de19971c5d40878d8742747904cdcd>:0 
+  at RimWorld.Pawn_MeleeVerbs.ChooseMeleeVerb (Verse.Thing target) [0x00018] in <95de19971c5d40878d8742747904cdcd>:0 
+  at RimWorld.Pawn_MeleeVerbs.TryGetMeleeVerb (Verse.Thing target) [0x00047] in <95de19971c5d40878d8742747904cdcd>:0 
+  at RimWorld.Pawn_MeleeVerbs.TryMeleeAttack (Verse.Thing target, Verse.Verb verbToUse, System.Boolean surpriseAttack) [0x00079] in <95de19971c5d40878d8742747904cdcd>:0 
+  at Verse.AI.JobDriver_Wait.CheckForAutoAttack () [0x00130] in <95de19971c5d40878d8742747904cdcd>:0 
+  at Verse.AI.JobDriver_Wait.<MakeNewToils>b__3_0 () [0x0003d] in <95de19971c5d40878d8742747904cdcd>:0 
+  at Verse.AI.JobDriver.TryActuallyStartNextToil () [0x001b0] in <95de19971c5d40878d8742747904cdcd>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.AI.JobUtility:TryStartErrorRecoverJob (Verse.Pawn,string,System.Exception,Verse.AI.JobDriver)
+Verse.AI.JobDriver:TryActuallyStartNextToil ()
+Verse.AI.JobDriver:ReadyForNextToil ()
+(wrapper dynamic-method) Verse.AI.Pawn_JobTracker:Verse.AI.Pawn_JobTracker.StartJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.AI.Job,Verse.AI.JobCondition,Verse.AI.ThinkNode,bool,bool,Verse.ThinkTreeDef,System.Nullable`1<Verse.AI.JobTag>,bool,bool,System.Nullable`1<bool>,bool,bool)
+Verse.AI.JobUtility:TryStartErrorRecoverJob (Verse.Pawn,string,System.Exception,Verse.AI.JobDriver)
+Verse.AI.JobDriver:TryActuallyStartNextToil ()
+Verse.AI.JobDriver:ReadyForNextToil ()
+(wrapper dynamic-method) Verse.AI.Pawn_JobTracker:Verse.AI.Pawn_JobTracker.StartJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.AI.Job,Verse.AI.JobCondition,Verse.AI.ThinkNode,bool,bool,Verse.ThinkTreeDef,System.Nullable`1<Verse.AI.JobTag>,bool,bool,System.Nullable`1<bool>,bool,bool)
+Verse.AI.Pawn_JobTracker:CheckForJobOverride ()
+Verse.AI.Pawn_JobTracker:Notify_DamageTaken (Verse.DamageInfo)
+Verse.Pawn_HealthTracker:PreApplyDamage (Verse.DamageInfo,bool&)
+Verse.Pawn:PreApplyDamage (Verse.DamageInfo&,bool&)
+(wrapper dynamic-method) Verse.Thing:Verse.Thing.TakeDamage_Patch2 (Verse.Thing,Verse.DamageInfo)
+RimWorld.Verb_MeleeAttackDamage:ApplyMeleeDamageToTarget (Verse.LocalTargetInfo)
+RimWorld.Verb_MeleeAttack:TryCastShot ()
+Verse.Verb:TryCastNextBurstShot ()
+Verse.Verb:WarmupComplete ()
+(wrapper dynamic-method) Verse.Verb:Verse.Verb.TryStartCastOn_Patch2 (Verse.Verb,Verse.LocalTargetInfo,Verse.LocalTargetInfo,bool,bool,bool,bool)
+Verse.Verb:TryStartCastOn (Verse.LocalTargetInfo,bool,bool,bool,bool)
+RimWorld.Pawn_MeleeVerbs:TryMeleeAttack (Verse.Thing,Verse.Verb,bool)
+VanillaPsycastsExpanded.Ability_Killskip:AttackTarget (Verse.LocalTargetInfo)
+VanillaPsycastsExpanded.Ability_Killskip:Cast (RimWorld.Planet.GlobalTargetInfo[])
+VFECore.Abilities.Ability:Cast (Verse.LocalTargetInfo)
+VFECore.Abilities.JobDriver_CastAbilityOnce/<>c__DisplayClass5_0:<MakeNewToils>b__3 ()
+Verse.AI.JobDriver:TryActuallyStartNextToil ()
+Verse.AI.JobDriver:ReadyForNextToil ()
+Verse.AI.JobDriver:DriverTick ()
+Verse.AI.Pawn_JobTracker:JobTrackerTick ()
+Verse.Pawn:Tick ()
+Verse.TickList:Tick ()
+(wrapper dynamic-method) Verse.TickManager:Verse.TickManager.DoSingleTick_Patch2 (Verse.TickManager)
+Verse.TickManager:TickManagerUpdate ()
+Verse.Game:UpdatePlay ()
+Verse.Root_Play:Update ()
+
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=Mech_Tesseron8859
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.AI.JobUtility:TryStartErrorRecoverJob (Verse.Pawn,string,System.Exception,Verse.AI.JobDriver)
+Verse.AI.JobDriver:TryActuallyStartNextToil ()
+Verse.AI.JobDriver:ReadyForNextToil ()
+(wrapper dynamic-method) Verse.AI.Pawn_JobTracker:Verse.AI.Pawn_JobTracker.StartJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.AI.Job,Verse.AI.JobCondition,Verse.AI.ThinkNode,bool,bool,Verse.ThinkTreeDef,System.Nullable`1<Verse.AI.JobTag>,bool,bool,System.Nullable`1<bool>,bool,bool)
+Verse.AI.JobUtility:TryStartErrorRecoverJob (Verse.Pawn,string,System.Exception,Verse.AI.JobDriver)
+Verse.AI.JobDriver:TryActuallyStartNextToil ()
+Verse.AI.JobDriver:ReadyForNextToil ()
+(wrapper dynamic-method) Verse.AI.Pawn_JobTracker:Verse.AI.Pawn_JobTracker.StartJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.AI.Job,Verse.AI.JobCondition,Verse.AI.ThinkNode,bool,bool,Verse.ThinkTreeDef,System.Nullable`1<Verse.AI.JobTag>,bool,bool,System.Nullable`1<bool>,bool,bool)
+Verse.AI.Pawn_JobTracker:CheckForJobOverride ()
+Verse.AI.Pawn_JobTracker:Notify_DamageTaken (Verse.DamageInfo)
+Verse.Pawn_HealthTracker:PreApplyDamage (Verse.DamageInfo,bool&)
+Verse.Pawn:PreApplyDamage (Verse.DamageInfo&,bool&)
+(wrapper dynamic-method) Verse.Thing:Verse.Thing.TakeDamage_Patch2 (Verse.Thing,Verse.DamageInfo)
+RimWorld.Verb_MeleeAttackDamage:ApplyMeleeDamageToTarget (Verse.LocalTargetInfo)
+RimWorld.Verb_MeleeAttack:TryCastShot ()
+Verse.Verb:TryCastNextBurstShot ()
+Verse.Verb:WarmupComplete ()
+(wrapper dynamic-method) Verse.Verb:Verse.Verb.TryStartCastOn_Patch2 (Verse.Verb,Verse.LocalTargetInfo,Verse.LocalTargetInfo,bool,bool,bool,bool)
+Verse.Verb:TryStartCastOn (Verse.LocalTargetInfo,bool,bool,bool,bool)
+RimWorld.Pawn_MeleeVerbs:TryMeleeAttack (Verse.Thing,Verse.Verb,bool)
+VanillaPsycastsExpanded.Ability_Killskip:AttackTarget (Verse.LocalTargetInfo)
+VanillaPsycastsExpanded.Ability_Killskip:Cast (RimWorld.Planet.GlobalTargetInfo[])
+VFECore.Abilities.Ability:Cast (Verse.LocalTargetInfo)
+VFECore.Abilities.JobDriver_CastAbilityOnce/<>c__DisplayClass5_0:<MakeNewToils>b__3 ()
+Verse.AI.JobDriver:TryActuallyStartNextToil ()
+Verse.AI.JobDriver:ReadyForNextToil ()
+Verse.AI.JobDriver:DriverTick ()
+Verse.AI.Pawn_JobTracker:JobTrackerTick ()
+Verse.Pawn:Tick ()
+Verse.TickList:Tick ()
+(wrapper dynamic-method) Verse.TickManager:Verse.TickManager.DoSingleTick_Patch2 (Verse.TickManager)
+Verse.TickManager:TickManagerUpdate ()
+Verse.Game:UpdatePlay ()
+Verse.Root_Play:Update ()
